@@ -1,8 +1,11 @@
 import React from 'react';
 import './Footer.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+AOS.init();
 
 const footer = (props =>{
-    return  <div><h1 className="h1-footer">find us</h1>
+    return  <div data-aos='fade-right'><h1 className="h1-footer">find us</h1>
     <footer className="footer">
         <div className="footer-text">
            <ul>
