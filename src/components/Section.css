@@ -1,0 +1,117 @@
+html{
+    font-size: 62.5%;
+}
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    box-sizing: border-box;
+}
+.header{
+    background-image: url(https://images.unsplash.com/photo-1554118811-1e0d58224f24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+    height: 100vh;
+    color: white;
+    background-size: cover;
+}
+.header-nav{
+    border-bottom: rgb(95, 255, 148) 2px solid;
+}
+.logo{
+    display: inline-block;
+    justify-content: flex-start;
+}
+.link,
+.link:visited,
+.link:active{
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+    margin-left: 3rem;
+}
+.navigation{
+   display: block; 
+   float: right;
+}
+.item{
+    margin-right: 10rem;
+}
+.items{
+    list-style: none;
+    float: left;
+    margin-right: 4rem;
+    font-size: 2rem;
+}
+.text{
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    margin-left: 10rem;
+}
+.text h1{
+    font-size: 3rem;
+}
+.text p{
+    font-size: 2rem;
+}
+.section{
+    margin-bottom: 10rem;
+    padding: 5rem;
+}
+.text-section{
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: rgb(66, 66, 62);
+    margin-bottom: 5rem;
+}
+.box-main{
+    width: 100%;
+}
+.box-container{
+    width: 33%;
+    display: inline-block;
+}
+.box-container img{
+    width: 100%;
+}
+.box{
+    width: 30rem;
+    height: 20rem;
+    background-color: rgb(117, 117, 89);
+    border-radius: 3px;
+    margin:auto;
+}
+.section1{
+    background-color: rgb(240, 175, 240);
+    padding: 5rem;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    height: 40vh;
+    margin-top: 5rem;
+}
+.footer-box{
+    width: 30rem;
+    height: 20rem;
+    background-color: rgb(189, 189, 112);
+    border-radius: 3px;
+}
+.footer-text{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.footer-text li{
+    list-style: none;
+}
+.h1-footer{
+    position: absolute;
+    right: 36%;
+    margin-top: 2rem;
+}
+.footer-box img{
+    width: 100%;
+}
